@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-5">
+    <np-recipes-list (recipeSelected)="selectedRecipe = $event"></np-recipes-list>
+  </div>
+  <div class="col-md-7">
+    <np-recipe-detail [selectedRecipe]="selectedRecipe"></np-recipe-detail>
+  </div>
+</div>
